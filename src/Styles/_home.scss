@@ -1,0 +1,13 @@
+.home{
+    /**
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);**/
+    background-image: url('./../Assets/Images/bg-01.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 80vh;
+    padding: 110px 0px 20px 0px;
+}

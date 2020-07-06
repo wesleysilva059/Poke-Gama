@@ -1,0 +1,44 @@
+.cartCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $color10;
+    padding: 5px 10px;
+    border-radius: 10px;
+    &:nth-child(even){
+        background-color: $color19;
+    }
+    .cc-title{
+        font-size: 14px!important;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .cc-sprite{
+        height: 40px;
+        width: 40px;
+        margin: auto;
+        object-fit: contain;
+    }
+    .cc-number{
+        font-size: 14px!important;
+        margin-bottom: 0;
+    }
+    .cc-price{
+        font-size: 12px;
+        display: inline-block;
+        margin: 0px auto;
+    }
+    .cc-btn{
+        color: $color24;
+        background-color: transparent;
+        font-weight: bold;
+        border: none;
+        margin: auto 0px auto auto;
+        &:active{
+            outline: none;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
